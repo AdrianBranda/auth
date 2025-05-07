@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/slider.css">
+</head>
+<body>
+    <header class="dashboard-header">
+        <div class="header-logo">LOGO</div>
+        <h1>Dashboard</h1>
+        <div class="header-user" id="header-user">Usuario</div>  </header>
+    <main class="main-container dashboard-content">
+        <section class="dashboard-section">
+            <h2>Estado General</h2>
+        </section>
+
+        <section class="dashboard-section">
+            <h2>Control</h2>
+            <button id="logout-btn" class="btn">Cerrar Sesión</button>
+        </section>
+
+        <section class="dashboard-section slider-section">
+            <h2>(Slider)</h2>
+            <div id="slider-container" class="slider__container">
+                <div id="slider" class="slider"></div>
+            </div>
+            <div id="active-description"></div>
+            <div class="slider-buttons">
+                <button id="button-left" class="button button--left"></button>
+                <button id="button-right" class="button button--right"></button>
+            </div>
+        </section>
+
+         <section class="dashboard-section">
+            <h2>Gráficos</h2>
+        </section>
+    </main>
+
+    <footer class="dashboard-footer">
+    </footer>
+
+    <script type="module" src="js/slider.js"></script>
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
