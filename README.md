@@ -42,31 +42,7 @@ The flexibility of this platform makes it suitable for a wide range of applicati
 ## Project Structure
 
 
-backend/
-│   ├── controllers/
-│   │   └── authController.js  # Manejo de la autenticación de usuarios
-│   ├── middlewares/
-│   │   └── authMiddleware.js # Protección de rutas con JWT
-│   ├── models/
-│   │   └── User.js           # Modelo de datos para los usuarios
-│   ├── routes/
-│   │   └── authRoutes.js     # Definición de las rutas de autenticación
-│   ├── database.js           # Configuración de la base de datos
-│   └── server.js             # Punto de entrada de la aplicación
-├── frontend/
-│   └── public/
-│       ├── css/
-│       │   ├── dashboard.css # Estilos del dashboard
-│       │   ├── index.css     # Estilos de la página de inicio
-│       │   ├── slider.css    # Estilos del slider
-│       │   └── styles.css    # Estilos generales
-│       ├── js/
-│       │   ├── dashboard.js  # Lógica del dashboard
-│       │   ├── index.js      # Lógica de la página de inicio
-│       │   ├── slider-data.js # Datos para el slider
-│       │   └── slider.js     # Funcionalidad del slider
-│       ├── dashboard.html    # HTML del dashboard
-│       └── index.html        # HTML de la página de inicio
+
 
 
 ## Installation Requirements
